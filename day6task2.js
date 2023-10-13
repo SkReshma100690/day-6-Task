@@ -6,22 +6,22 @@
 //  sub task 1
 //  Find the culprit
 
-//  <!DOCTYPE html>
-//  <html>
-//  <body>
-//   <script>
-//   alert("I'm JavaScript!")
-//   </script>
-//   Whats the error in this ?
-//   <p>Answer: using single quotes is creating problem when there is a apostrophy</p>
-//  </body>
-//  </html> 
+ <!DOCTYPE html>
+ <html>
+ <body>
+  <script>
+  alert("I'm JavaScript!")
+  </script>
+  Whats the error in this ?
+  <p>Answer: using single quotes is creating problem when there is a apostrophy</p>
+ </body>
+ </html> 
 
 
 
 //  sub task 2
 
-// alert("I'm invoked!");
+alert("I'm invoked!");
 
 
 
@@ -39,11 +39,11 @@
 //  sub task 4
 // Fix the below to alert Guvi geek
 
-// let admin=9, fname=10.5; 
-// fname = "Guvi";
-// lname = "geek"
-// admin = fname+ " " +lname;
-// alert( admin ); // "Guvi geek"
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin = fname+ " " +lname;
+alert( admin ); // "Guvi geek"
 
 
 
@@ -51,22 +51,22 @@
 //  sub task 5
 // Fix the below to alert hello Guvi geek
 
-// let fname=10.5; 
-// fname = "Guvi";
-// lname = "geek"
-// let name = fname+lname;
-// alert( `hello ${name}` );
+let fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+let name = fname+lname;
+alert( `hello ${name}` );
 
 
 
 //  sub task 6 and 7
 // Fix the below to alert sum of two numbers
 
-// let a = prompt("First number?");
-// let b = prompt("Second number?");
-// alert(parseInt(a) + parseInt(b));
-// or
-// alert(Number(a) + Number(b));
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(parseInt(a) + parseInt(b));
+or
+alert(Number(a) + Number(b));
 
 
 
@@ -78,15 +78,15 @@
 // Explain Why the Code is blasted and how to diffuse it and get “Diffused”.
 
 
-// var a = 2 > 12;
-// //Don't touch below this
-// if (a) {
-//   console.log("Code is Blasted")
-// }
-// else
-// {
-//   console.log("Diffused") 
-// }
+var a = 2 > 12;
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
 
 
 // Answer: As the 2 and 12 are given as strings > the comparison for stings will be done by taking the first digit
@@ -110,14 +110,14 @@
 //  sub task 10
 // How to get the correct score in console.
 
-// let value = prompt('How many runs you scored in this ball');
-// if (value == 4) {
-//       console.log("You hit a Four");
-// } else if (value == 6) {
-//       console.log("You hit a Six");
-// } else {
-//       console.log("I couldn't figure out");
-// }
+let value = prompt('How many runs you scored in this ball');
+if (value == 4) {
+      console.log("You hit a Four");
+} else if (value == 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
 
 
 // Answer: In the given code in if condition '===' is used 
@@ -130,12 +130,12 @@
 //  sub task 11
 // Fix the code to welcome the Employee
 
-// let login = 'Employee';
-// let message = (login == 'Employee') ? 'welcome':
-//   (login == 'Director') ? 'Greetings' :
-//   (login == '') ? 'No login' :
-//   '';
-// console.log(message);
+let login = 'Employee';
+let message = (login == 'Employee') ? 'welcome':
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+console.log(message);
 
 
 
@@ -148,10 +148,10 @@
 
 
 //You can change only 2 characters
-// let i = 3;
-// while (i) {
-//   console.log(i--);
-// }
+let i = 3;
+while (i) {
+  console.log(i--);
+}
 
 
 
@@ -159,10 +159,10 @@
 //  sub task 16
 // Change the code to print 1 to 10 in 4 lines
 
-// let num=1;
-// while(num<=10){
-//     console.log(num);
-//     num+=1;}
+let num=1;
+while(num<=10){
+    console.log(num);
+    num+=1;}
 
 
 
@@ -172,9 +172,9 @@
 // Change the code to print even numbers
 
 //You are allowed to modify only one character 
-// for (let num = 2; num <= 20; num += 2) {
-//     console.log(num)
-//   }
+for (let num = 2; num <= 20; num += 2) {
+    console.log(num)
+  }
 
 
 
@@ -184,10 +184,10 @@
 //  sub task 18
 // Change the code to print all the gifts
 
-// let gifts = ["teddy bear", "drone", "doll"];
-// for (let i = 0; i < 3; i++) {
-//   console.log(`Wrapped ${gifts[i]} and added a bow!`);
-// }
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+}
 
 
 
